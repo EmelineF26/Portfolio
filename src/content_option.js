@@ -5,10 +5,15 @@ import Nina from '../src/assets/projets/P5_Nina.jpg';
 import MenuMaker from '../src/assets/projets/P4_MMBQ.jpg';
 import SophieBluel from '../src/assets/projets/P3_SophieBluel.jpg';
 import Booki from '../src/assets/projets/P2_Booki.jpg';
+import JSlogo from '../src/assets/images/Logo-Javascript-remove.png';
+import ReactLogo from '../src/assets/images/1175112.png';
+import NodeLogo from '../src/assets/images/NodeJS_2.png';
+import HtmlCssLogo from '../src/assets/images/html-css_1.png';
+import './index.css';
 
 const logotext = "HEMY";
 const meta = {
-    title: "Hemy Portfolio",
+    title: "Hemy's Portfolio",
     description: "Je suis Hémeline, Développeuse web junior fullstack sur Lyon et ses alentours",
 };
 
@@ -16,10 +21,10 @@ const introdata = {
     title: "Je suis Hémeline",
     animated: {
         first: "Jeune Développeuse web fullstack",
-        second: "Avec une légère préférence pour le back-end",
-        third: "J'aspire à développer de nouvelles compétences",
+        second: "Passionnée par le web et le code",
+        third: "Transforme vos projets en réalité numérique",
     },
-    description: "Après 7 ans à travailler dans le domaine de la logistique, j'ai décidé de me reconvertir dans le domaine du web, car j'ai toujours eu une appétence depuis petite pour l'informatique et le web. Je souhaite aujourd'hui si possible compléter ma formation avec une alternance dans ce domaine à un niveau Bac +3/4.",
+    description: "Après 7 ans à travailler dans le domaine de la logistique, j'ai décidé de me reconvertir dans le domaine du web, car j'ai toujours eu une appétence depuis petite pour l'informatique et le web. Je souhaite aujourd'hui compléter ma formation avec une alternance dans ce domaine à un niveau Bac +3/4 pour développer mes compétences.",
     your_img_url: Hemy,
 };
 
@@ -46,19 +51,19 @@ const MonCV = [{
 
 const skills = [{
         name: "Javascript",
-        value: 60,
+        logo: JSlogo,
     },
     {
         name: "React",
-        value: 70,
+        logo: ReactLogo,
     },
     {
         name: "Node.js",
-        value: 70,
+        logo: NodeLogo,
     },
     {
         name: "HTML/CSS",
-        value: 80,
+        logo: HtmlCssLogo,
     },
 ];
 
@@ -78,7 +83,7 @@ const skills = [{
 
 const dataportfolio = [{
         img: P7MVG,
-        description: "Mon Vieux Grimoire, projet back-end de création d'une API du site d'une chaîne de librairies.",
+        description: "Mon Vieux Grimoire, projet back-end de création d'une API du site d'une chaîne de librairies avec Node.js, Express, et MongoDB.",
         link: "https://github.com/EmelineF26/MonVieuxGrimoire",
     },
     {

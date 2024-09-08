@@ -14,7 +14,7 @@
 .progress-title {
     font-size: 16px;
     font-weight: 700;
-    margin: 15px 0 20px;
+    margin: 35px 0 40px 40px;
     font-family: 'Raleway';
 }
 
@@ -43,6 +43,17 @@
     font-weight: bold;
     font-style: italic;
     color: var(--text-color);
+}
+
+.logosSkills {
+    width: 14%;
+    height: auto;
+    margin-bottom: 18px;
+}
+
+.skillsBlock {
+    display: flex;
+    gap: 16px;
 }
 
 @-webkit-keyframes animate-positive {

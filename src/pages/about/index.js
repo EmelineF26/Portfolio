@@ -20,7 +20,7 @@ export const About = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h1 className="display-4 mb-4">A propos de moi</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -50,6 +50,12 @@ export const About = () => {
                     </tr>
                   );
                 })}
+                <div>
+                  {/* <p className="color_sec py-4">Vous pouvez télécharger mon CV en entier juste en dessous</p> */}
+                    <a href="/CV_Hemeline_AlternanceDevWeb.pdf" download="CV_Hemeline_AlternanceDevWeb.pdf">
+                    Cliquez pour télécharger mon CV en entier
+                    </a>
+                </div>
               </tbody>
             </table>
           </Col>
@@ -61,18 +67,17 @@ export const About = () => {
           <Col lg="7">
             {skills.map((data, i) => {
               return (
-                <div key={i}>
+                <div key={i} className="skillsBlock">
                   <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
+                  <img src={data.logo} alt="" className="logosSkills" />
+                  {/* <div className="progress">
+                    <div className="progress-bar" style={{
                         width: `${data.value}%`,
                       }}
                     >
                       <div className="progress-value">{data.value}%</div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               );
             })}

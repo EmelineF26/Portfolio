@@ -1,6 +1,6 @@
 :root {
     --bg-color: #200345;
-    --primary-color: #3906a8;
+    --primary-color: #77269d;
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
@@ -10,7 +10,7 @@
 
 [data-theme="light"] {
     --bg-color: #F5D6C6;
-    --primary-color: #FFBCD9;
+    --primary-color: #a0dcff;
     --secondary-color: #000;
     --text-color: #000;
     --text-color-2: #000;
