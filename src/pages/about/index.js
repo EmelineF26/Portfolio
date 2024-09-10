@@ -1,13 +1,9 @@
 import React from "react";
 import "./style.css";
+import ImageAnimation from "../../components/animation_homepage/index";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  dataabout,
-  meta,
-  MonCV,
-  skills,
-} from "../../content_option";
+import { dataabout, meta, MonCV, skills } from "../../content_option";
 
 export const About = () => {
   return (
@@ -18,13 +14,14 @@ export const About = () => {
           <title> About | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="pt-md-1">
           <Col lg="8">
-            <h1 className="display-4 mb-4">A propos de moi</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
+          <ImageAnimation />
+            <h1 className="display-4">A propos de moi</h1>
+            <hr className="t_border my-4 mt-4 ml-0 text-left" />
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row className="sec_sp mt-10">
           <Col lg="5">
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>

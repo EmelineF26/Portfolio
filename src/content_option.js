@@ -67,55 +67,36 @@ const skills = [{
     },
 ];
 
-// // const services = [{
-// //     title: "UI & UX Design",
-// //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-// // },
-// // {
-// //     title: "Mobile Apps",
-// //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-// // },
-// // {
-// //     title: "Wordpress Design",
-// //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-// // },
-// ];
-
 const dataportfolio = [{
         img: P7MVG,
-        description: "Mon Vieux Grimoire, projet back-end de création d'une API du site d'une chaîne de librairies avec Node.js, Express, et MongoDB.",
+        description: "Mon Vieux Grimoire, projet back-end de création d'une API du site d'une chaîne de librairies avec Node.js, Express, et MongoDB. J'ai trouvé ce projet contraignant car il y avait beaucoup de choses à vérifier, la conformité de chaque erreur, autant côté Postman que site. La création également du processus de validation du mot de passe n'a pas été une mince à faire, mais j'ai trouvé ce projet très enrichissant en terme de technique.",
         link: "https://github.com/EmelineF26/MonVieuxGrimoire",
     },
     {
         img: kasa,
-        description: "Kasa, projet front-end de création d'un site d'une agence immobilière en React.",
+        description: "Kasa, projet front-end de création d'un site d'une agence immobilière en React. Ce projet n'a pas été simple, par rapport notamment à la création des collapses et des animations CSS qui vont avec (chose que je n'avais pas faite avant). Il m'a clairement balancé hors de ma zone de confort, mais j'ai appris énormément grâce à ce projet, j'ai eu plaisir à travailler avec React.",
         link: "https://github.com/EmelineF26/kasa",
     },
     {
         img: Nina,
-        description: "Nina Carducci, une photographe qui avait besoin d'une prestation débug et optimisation pour son site.",
+        description: "Nina Carducci, une photographe qui avait besoin d'une prestation débug et optimisation pour son site (SEO). Ce projet n'a pas été simple à aborder, de par sa complexité et son absence de codage, la partie débugage n'a pas été ma préférée, mais la partie SEO a été intéressante à apprendre, et j'aurais plaisir à retravailler sur du SEO dans le futur.",
         link: "https://github.com/EmelineF26/P5_NinaCarducci",
     },
     {
         img: MenuMaker,
-        description: "Menu Maker by Qwenta, un projet de site permettant aux restaurateurs d'afficher et de mettre en page leurs menus (gestion de projet).",
+        description: "Menu Maker by Qwenta, un projet de site permettant aux restaurateurs d'afficher et de mettre en page leurs menus (gestion de projet avec Trello). Ce projet a été pour ma part, le moins stimulant de tous. Il m'a appris beaucoup de choses sur la manière de gérer un projet, toute la partie en amont, ça a été intéressant d'apprendre, de connaître, bien que ce ne soit pas quelque chose que j'aurais envie de pratiquer tout le temps.",
         link: "https://trello.com/b/NEt7vezl/menu-maker-by-qwenta",
     },
     {
         img: SophieBluel,
-        description: "Sophie Bluel, architecte d'intérieur ayant fait appel à nous pour la conception de son site portfolio, projet en Javascript, incluant une communication avec une API.",
+        description: "Sophie Bluel, architecte d'intérieur ayant fait appel à nous pour la conception de son site portfolio, projet en Javascript, incluant une communication avec une API. Projet intéressant, pas facile du point de vue technique quand on a un bas niveau en Javascript, mais il m'en a appris énormément, et j'ai été très contente du résultat une fois le projet fini.",
         link: "https://github.com/EmelineF26/Portfolio-architecte-sophie-bluel",
     },
     {
         img: Booki,
-        description: "Booki, site internet permettant de trouver des hébergements et des activités dans la ville de leur choix (projet en HTML5/CSS3).",
+        description: "Booki, site internet permettant de trouver des hébergements et des activités dans la ville de leur choix (projet en HTML5/CSS3). Premier projet de ma formation, l'apprentissage de HTML et CSS a été long car je n'avais pas beaucoup de bases, le projet a été long à faire aussi, mais c'est un très bon projet de démarrage que je recommanderais à tout débutant.",
         link: "https://github.com/EmelineF26/ProjetBooki",
     },
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
 ];
 
 const contactConfig = {
@@ -131,7 +112,6 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/EmelineF26",
-    // facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/hémeline-farget-ab351b121",
     // twitter: "https://twitter.com",
 };

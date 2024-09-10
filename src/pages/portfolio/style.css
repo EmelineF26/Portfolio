@@ -82,8 +82,8 @@
 .Description {
     font-weight: bolder;
     font-size: 17.5px;
-    margin-left: 60px;
-    /* margin: 0px 0px 0px 5rem; */
+    /* margin-left: 60px; */
+    margin: 0px 0px 60px 60px;
     border-radius: 10px;
     width: 82%;
 }
