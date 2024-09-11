@@ -16,8 +16,8 @@ export const About = () => {
         </Helmet>
         <Row className="pt-md-1">
           <Col lg="8">
-          <ImageAnimation />
-            <h1 className="display-4">A propos de moi</h1>
+          <ImageAnimation className="animation" />
+            <h1 className="about display-4">A propos de moi</h1>
             <hr className="t_border my-4 mt-4 ml-0 text-left" />
           </Col>
         </Row>

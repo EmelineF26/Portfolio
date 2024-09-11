@@ -69,7 +69,7 @@ const skills = [{
 
 const dataportfolio = [{
         img: P7MVG,
-        description: "Mon Vieux Grimoire, projet back-end de création d'une API du site d'une chaîne de librairies avec Node.js, Express, et MongoDB. J'ai trouvé ce projet contraignant car il y avait beaucoup de choses à vérifier, la conformité de chaque erreur, autant côté Postman que site. La création également du processus de validation du mot de passe n'a pas été une mince à faire, mais j'ai trouvé ce projet très enrichissant en terme de technique.",
+        description: "Mon Vieux Grimoire, projet back-end de création d'une API du site d'une chaîne de librairies avec Node.js, Express, et MongoDB. J'ai trouvé ce projet contraignant car il y avait beaucoup de choses à vérifier, la conformité de chaque erreur, autant côté Postman que sur le site. La création également du processus de validation du mot de passe n'a pas été une mince à faire, mais j'ai trouvé ce projet très enrichissant en terme de technique.",
         link: "https://github.com/EmelineF26/MonVieuxGrimoire",
     },
     {
@@ -89,12 +89,12 @@ const dataportfolio = [{
     },
     {
         img: SophieBluel,
-        description: "Sophie Bluel, architecte d'intérieur ayant fait appel à nous pour la conception de son site portfolio, projet en Javascript, incluant une communication avec une API. Projet intéressant, pas facile du point de vue technique quand on a un bas niveau en Javascript, mais il m'en a appris énormément, et j'ai été très contente du résultat une fois le projet fini.",
+        description: "Sophie Bluel, architecte d'intérieur ayant fait appel à nous pour la conception de son site portfolio, projet en Javascript, incluant une communication avec une API. Projet intéressant, pas facile du point de vue technique quand on a un bas niveau en Javascript, la récupération des données m'a donné du fil à retordre, mais il m'en a appris énormément, et j'ai été très contente du résultat une fois le projet fini.",
         link: "https://github.com/EmelineF26/Portfolio-architecte-sophie-bluel",
     },
     {
         img: Booki,
-        description: "Booki, site internet permettant de trouver des hébergements et des activités dans la ville de leur choix (projet en HTML5/CSS3). Premier projet de ma formation, l'apprentissage de HTML et CSS a été long car je n'avais pas beaucoup de bases, le projet a été long à faire aussi, mais c'est un très bon projet de démarrage que je recommanderais à tout débutant.",
+        description: "Booki, site internet permettant de trouver des hébergements et des activités à Marseille (projet en HTML5/CSS3). Premier projet de ma formation, l'apprentissage de HTML et CSS a été long car je n'avais pas beaucoup de bases, le projet a été long à faire aussi. Flexbox nous promettait une mise en page facile, à condition de s'entraîner à l'utiliser, et à le comprendre. C'est un très bon projet de démarrage que je recommanderais à tout débutant.",
         link: "https://github.com/EmelineF26/ProjetBooki",
     },
 ];
@@ -113,7 +113,6 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/EmelineF26",
     linkedin: "https://www.linkedin.com/in/hémeline-farget-ab351b121",
-    // twitter: "https://twitter.com",
 };
 export {
     meta,
