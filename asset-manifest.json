@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.94bb27dd.css",
-    "main.js": "/Portfolio/static/js/main.ae0daa4e.js",
+    "main.js": "/Portfolio/static/js/main.96ea164a.js",
     "static/media/Hemy8.png": "/Portfolio/static/media/Hemy8.8caa2fbd51685d979757.png",
     "static/media/Kasa_1.jpg": "/Portfolio/static/media/Kasa_1.d19bd1c4c6d4c43e95e5.jpg",
     "static/media/P3_SophieBluel.jpg": "/Portfolio/static/media/P3_SophieBluel.997471b9e54bee79ef5f.jpg",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.94bb27dd.css",
-    "static/js/main.ae0daa4e.js"
+    "static/js/main.96ea164a.js"
   ]
 }
