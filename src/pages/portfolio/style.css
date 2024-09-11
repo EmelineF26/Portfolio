@@ -99,7 +99,7 @@
 
 .carousel-control-prev-icon, 
 .carousel-control-next-icon {
-    top: 50%;
+    top: 80%;
     /* height: auto; */
     position: absolute;
 }

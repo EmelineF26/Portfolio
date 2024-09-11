@@ -45,6 +45,10 @@
     color: var(--text-color);
 }
 
+.AboutMe {
+    margin-top: 35px;
+}
+
 .logosSkills {
     width: 14%;
     height: auto;

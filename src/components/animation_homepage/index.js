@@ -26,7 +26,7 @@ const ImageAnimation = () => {
         <motion.img src={Img} alt="Image animée" className={`AnimationImg ${isMobile ? 'mobile-animation' : ''}`}
         initial={{ x: '80vw' }}  // L'animation démarre en dehors de la page (à droite)
         animate={{ x: isMobile? '10vw' : '25vw' }}   // Elle se déplace vers le milieu de la page
-        transition={{ type: 'spring', stiffness: 50, duration: 2.5 }} // Animation fluide
+        transition={{ type: 'spring', stiffness: 50, duration: 3.5 }} // Animation fluide
         style={{ width: '250px', height: '250px', position: 'relative', transform: 'translateX(-50%)' }}
         />
     </div>

@@ -18,7 +18,7 @@ export const About = () => {
           <Col lg="8">
           <ImageAnimation className="animation" />
             <h1 className="about display-4">A propos de moi</h1>
-            <hr className="t_border my-4 mt-4 ml-0 text-left" />
+            <hr className="t_border my-4 mt-6 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp mt-10">
@@ -27,7 +27,7 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p className="AboutMe">{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>
