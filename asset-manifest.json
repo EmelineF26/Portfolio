@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Hemysportfolio/static/css/main.e6dfdd39.css",
-    "main.js": "/Hemysportfolio/static/js/main.0427987b.js",
-    "static/media/Hemy8.png": "/Hemysportfolio/static/media/Hemy8.8caa2fbd51685d979757.png",
-    "static/media/Kasa_1.jpg": "/Hemysportfolio/static/media/Kasa_1.d19bd1c4c6d4c43e95e5.jpg",
-    "static/media/P3_SophieBluel.jpg": "/Hemysportfolio/static/media/P3_SophieBluel.997471b9e54bee79ef5f.jpg",
-    "static/media/P2_Booki.jpg": "/Hemysportfolio/static/media/P2_Booki.8287a30c47bf3fe85391.jpg",
-    "static/media/P5_Nina.jpg": "/Hemysportfolio/static/media/P5_Nina.6bf685f85cf6fd1c69e7.jpg",
-    "static/media/P4_MMBQ.jpg": "/Hemysportfolio/static/media/P4_MMBQ.58cbde8c55bd796fc1b0.jpg",
-    "static/media/P7_MVG_1.jpg": "/Hemysportfolio/static/media/P7_MVG_1.a4857a3224da6845d57a.jpg",
-    "static/media/Animation_CP-removebg.png": "/Hemysportfolio/static/media/Animation_CP-removebg.c4b7b28385282854990f.png",
-    "static/media/1175112.png": "/Hemysportfolio/static/media/1175112.048ca51607e9c9c6b265.png",
-    "static/media/NodeJS_2.png": "/Hemysportfolio/static/media/NodeJS_2.2247b019a93a8f55e094.png",
-    "static/media/Logo-Javascript-remove.png": "/Hemysportfolio/static/media/Logo-Javascript-remove.3eebc67bc9945a80a0f9.png",
-    "index.html": "/Hemysportfolio/index.html"
+    "main.css": "/Portfolio/static/css/main.e6dfdd39.css",
+    "main.js": "/Portfolio/static/js/main.589598a0.js",
+    "static/media/Hemy8.png": "/Portfolio/static/media/Hemy8.8caa2fbd51685d979757.png",
+    "static/media/Kasa_1.jpg": "/Portfolio/static/media/Kasa_1.d19bd1c4c6d4c43e95e5.jpg",
+    "static/media/P3_SophieBluel.jpg": "/Portfolio/static/media/P3_SophieBluel.997471b9e54bee79ef5f.jpg",
+    "static/media/P2_Booki.jpg": "/Portfolio/static/media/P2_Booki.8287a30c47bf3fe85391.jpg",
+    "static/media/P5_Nina.jpg": "/Portfolio/static/media/P5_Nina.6bf685f85cf6fd1c69e7.jpg",
+    "static/media/P4_MMBQ.jpg": "/Portfolio/static/media/P4_MMBQ.58cbde8c55bd796fc1b0.jpg",
+    "static/media/P7_MVG_1.jpg": "/Portfolio/static/media/P7_MVG_1.a4857a3224da6845d57a.jpg",
+    "static/media/Animation_CP-removebg.png": "/Portfolio/static/media/Animation_CP-removebg.c4b7b28385282854990f.png",
+    "static/media/1175112.png": "/Portfolio/static/media/1175112.048ca51607e9c9c6b265.png",
+    "static/media/NodeJS_2.png": "/Portfolio/static/media/NodeJS_2.2247b019a93a8f55e094.png",
+    "static/media/Logo-Javascript-remove.png": "/Portfolio/static/media/Logo-Javascript-remove.3eebc67bc9945a80a0f9.png",
+    "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.e6dfdd39.css",
-    "static/js/main.0427987b.js"
+    "static/js/main.589598a0.js"
   ]
 }
