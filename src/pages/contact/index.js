@@ -6,6 +6,8 @@ import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
+emailjs.init("7vcy7tGpApwkc7B46");
+
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -30,8 +32,6 @@ export const ContactUs = () => {
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
-
-    emailjs.init("7vcy7tGpApwkc7B46");
 
     emailjs
       .send(
