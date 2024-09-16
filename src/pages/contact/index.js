@@ -19,7 +19,10 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    setFormdata((prevState) => ({
+      ...prevState,
+      loading: true,
+    }));
 
     const templateParams = {
       from_name: formData.email,
@@ -27,6 +30,8 @@ export const ContactUs = () => {
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
+
+    emailjs.init("7vcy7tGpApwkc7B46");
 
     emailjs
       .send(
@@ -38,20 +43,23 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setFormdata({
+          setFormdata((prevState) => ({
+            ...prevState,
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! ,Thank you for your message",
             variant: "success",
             show: true,
-          });
+          }));
         },
         (error) => {
           console.log(error.text);
-          setFormdata({
+          setFormdata((prevState) => ({
+            ...prevState,
+            loading: false,
             alertmessage: `Faild to send!,${error.text}`,
             variant: "danger",
             show: true,
-          });
+          }));
           document.getElementsByClassName("co_alert")[0].scrollIntoView();
         }
       );
@@ -74,7 +82,7 @@ export const ContactUs = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
+            <h1 className="display-4 mb-4">Me contacter</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>

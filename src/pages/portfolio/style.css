@@ -97,16 +97,29 @@
     object-fit: cover;
 }
 
+.carousel-indicators {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    bottom: -21%;
+    display: flex;
+}
+
 .carousel-control-prev-icon, 
 .carousel-control-next-icon {
     top: 80%;
     /* height: auto; */
     position: absolute;
+    background-color: black;
 }
 
 @media screen and (max-width: 768px) {
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
         top: 64%;
+    }
+
+    .carousel-indicators {
+        bottom: 8%;
     }
 }

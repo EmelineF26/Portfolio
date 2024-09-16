@@ -105,9 +105,9 @@ const contactConfig = {
     description: "N'hésitez pas à me contacter, je suis disponible essentiellement le soir entre 17h et 19h30 tous les soirs de la semaine, et entre 12h et 14h. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: process.env.YOUR_SERVICE_ID,
+    YOUR_TEMPLATE_ID: process.env.YOUR_TEMPLATE_ID,
+    YOUR_USER_ID: "7vcy7tGpApwkc7B46",
 };
 
 const socialprofils = {
