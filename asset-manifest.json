@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.abcdd0f9.css",
+    "main.css": "/Portfolio/static/css/main.d7215dad.css",
     "main.js": "/Portfolio/static/js/main.d4189f30.js",
     "static/media/Hemy8.png": "/Portfolio/static/media/Hemy8.8caa2fbd51685d979757.png",
     "static/media/Kasa_1.jpg": "/Portfolio/static/media/Kasa_1.d19bd1c4c6d4c43e95e5.jpg",
@@ -16,7 +16,7 @@
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.abcdd0f9.css",
+    "static/css/main.d7215dad.css",
     "static/js/main.d4189f30.js"
   ]
 }
