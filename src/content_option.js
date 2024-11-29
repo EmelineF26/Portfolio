@@ -112,7 +112,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/EmelineF26",
-    linkedin: "https://www.linkedin.com/in/hémeline-farget-ab351b121",
+    linkedin: "https://www.linkedin.com/in/hemeline-farget",
 };
 export {
     meta,
