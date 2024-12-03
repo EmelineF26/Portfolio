@@ -102,7 +102,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "emeline.farget@outlook.fr",
     YOUR_FONE: "+33 7 49 41 70 88",
-    description: "N'hésitez pas à me contacter, je suis disponible essentiellement le soir entre 17h et 19h30 tous les soirs de la semaine, et entre 12h et 14h. ",
+    description: "N'hésitez pas à me contacter, je suis disponible essentiellement le soir entre 17h et 19h tous les soirs de la semaine, et entre 12h et 14h.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: process.env.REACT_APP_YOUR_SERVICE_ID,
